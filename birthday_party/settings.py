@@ -30,6 +30,7 @@ DEBUG = True if os.environ['MODE'] == 'dev' else False
 ALLOWED_HOSTS = ['*']
 
 CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = ['birthdaypartybackend-production.up.railway.app']
 
 # Application definition
 
